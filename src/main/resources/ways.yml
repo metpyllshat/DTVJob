@@ -1,0 +1,14 @@
+way:
+    A: 
+        x: -1
+        y: -1
+        z: -1
+        world: World
+    B: 
+        x: -1
+        y: -1
+        z: -1
+        world: World
+    cost: 0
+    block: 15
+    waypoints: {}

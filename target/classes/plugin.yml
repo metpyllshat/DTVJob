@@ -1,0 +1,9 @@
+name: DTVJob
+version: '1.0'
+main: dataverse.dtvjob.DTVJob
+api-version: '1.16'
+authors: [Matyha Shatalov,DataVerse Team]
+commands:
+  dtvjob:
+    description: информация о плагине
+    usage: /dtvjob

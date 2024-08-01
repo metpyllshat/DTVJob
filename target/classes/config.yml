@@ -1,0 +1,9 @@
+sign-info:
+- 'Это будет выводится при нажатии на табличку с работой'
+- '14/88'
+max_box_count: 3
+item-lore: ""
+item-name: "Кирпичи"
+range: 3
+title: ""
+slow: true
