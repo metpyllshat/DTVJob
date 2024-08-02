@@ -7,7 +7,6 @@ import java.util.LinkedList;
 import java.util.List;
 import net.milkbowl.vault.economy.Economy;
 import org.bukkit.Bukkit;
-import org.bukkit.Effect;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.World;
@@ -214,7 +213,7 @@ public class DTVJob extends JavaPlugin {
                         Iterator<Block> it = w.iterator();
                         while (it.hasNext()) {
                             Block block = it.next();
-                            pl.playEffect(block.getLocation(), Effect.ENDER_EYE_PLACED, 5);
+
                         }
                     }
                 }
