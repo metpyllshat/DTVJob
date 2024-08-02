@@ -103,7 +103,7 @@ public class EventListener implements Listener {
                 p.sendMessage(Lang.get("anotherWay"));
                 return;
             }
-            ((Truck)DTVJob.trucks.get(p.getName())).deliver();
+            DTVJob.trucks.get(p.getName()).deliver();
         }
     }
 
